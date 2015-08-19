@@ -102,7 +102,6 @@ def check_valid_input(grabbed, marbles_in_jar):
 			raise ValueError("Nice try. Try again!")
 		elif marbles_in_jar - grabbed < 0:
 			grabbed = marbles_in_jar
-			print grabbed
 	except Exception:
 		print("Sorry, that is not a valid option. Try again! ")
 		return True, grabbed
